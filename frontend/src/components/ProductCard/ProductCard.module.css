@@ -1,0 +1,76 @@
+/* Strict Section 5.4: Animation, risk color, feedback */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  transition: box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+.product-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.details-overlay {
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255,255,255,0.97);
+  padding: 1rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product-card:hover .details-overlay {
+  opacity: 1;
+}
+.category-badge {
+  display: inline-block;
+  padding: 0.2em 0.7em;
+  border-radius: 12px;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+  background: #f0f0f0;
+}
+.category-savings { background: #e0ffe0; color: #1a7f37; }
+.category-investment { background: #e0f7ff; color: #007baf; }
+.category-insurance { background: #fffbe0; color: #bfa700; }
+.category-crypto { background: #ffe0f0; color: #b7005e; }
+.risk-badge.risk-low { background: #e6ffe6; color: #1a7f37; }
+.risk-badge.risk-medium { background: #fffbe0; color: #bfa700; }
+.risk-badge.risk-high { background: #ffeaea; color: #b70000; }
+.add-portfolio-btn {
+  background: #007b5e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  margin-left: 0.5em;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+.add-portfolio-btn.added, .add-portfolio-btn:disabled {
+  background: #1a7f37;
+  color: #fff;
+  cursor: default;
+}
+.view-details-btn {
+  background: #eee;
+  color: #007b5e;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  margin-right: 0.5em;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.product-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  min-height: 120px;
+  max-height: 180px;
+}

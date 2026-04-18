@@ -1,0 +1,11 @@
+/* Example CSS module for Navbar */
+.navbar {
+  display: flex;
+  gap: 1rem;
+  background: #f5f5f5;
+  padding: 1rem;
+}
+.navbar .active {
+  font-weight: bold;
+  color: #007b5e;
+}
