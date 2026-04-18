@@ -4,7 +4,7 @@ A modern, full-stack FinTech web application for discovering, comparing, and man
 
 ---
 
-## 🚀 Features
+##  Features
 - **Home Page:** Platform overview, featured products, category navigation, call-to-action, and quick stats.
 - **Product Listing:** Comprehensive filters (risk, return, category, liquidity, time horizon, min investment), search, sorting, and comparison.
 - **Product Detail:** Full product info, decision insights, risk visualization, return calculator, and add to portfolio.
@@ -17,7 +17,7 @@ A modern, full-stack FinTech web application for discovering, comparing, and man
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 1. **Clone the repository:**
    ```
@@ -46,7 +46,7 @@ A modern, full-stack FinTech web application for discovering, comparing, and man
 
 ---
 
-## 🧩 Component Hierarchy Diagram
+##  Component Hierarchy Diagram
 
 ```
 App
@@ -69,7 +69,7 @@ App
 
 ---
 
-## 💸 Financial Logic Overview
+##  Financial Logic Overview
 
 - **Product Data Model:**
   - Each product has: id, name, category, expectedReturn, riskLevel, liquidity, timeHorizon, minInvestment, description, image.
@@ -86,5 +86,5 @@ App
 ---
 
 
-## 📄 License
+##  License
 MIT
